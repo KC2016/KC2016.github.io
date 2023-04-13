@@ -1,9 +1,12 @@
-# my-website
-portifolio (IN DEVELOPMENT)
+# Karina Condeixa's Portfolio [WIP]
 
-Website in development created to give live to the draft minibot about COVID-19.
+### Data Science and Analytics
 
-The design is based on the Massively by HTML5 UP.
-The chatbot is been made with Dialogflow.
+A personal space to gather my main projects.
+
+This website also gives live to the draft minibot about COVID-19 using Dialogflow.
+
+<small>Notes: The design is based on the Massively by HTML5 UP.</small>
+
 
 
