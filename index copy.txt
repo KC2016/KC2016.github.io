@@ -13,7 +13,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
 		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 		<df-messenger
@@ -46,6 +45,20 @@
 					<header id="header">
 						<a href="index.html" class="logo">My Portfolio</a>
 					</header>
+
+				<!-- Nav -->
+					<!-- <nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About me</a></li>
+							<li><a href="elements.html">VVVVVV</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav> -->
+
 
 				<!-- Main -->
 					<div id="main">
@@ -118,22 +131,16 @@
 				<!-- Box -->
 					<h2>About me</h2>
 						<div class="box">
-							<p><span class="image left"><img src="images/ka_2015.png" width=100% alt="" /></span>
+							<p><span class="image left"><img src="images/ka_2015.png"  alt="" /></span>
 							<b>Karina Condeixa</b>, PhD.<br/>
-							Data scientist and architect, I experienced in applying quantitative analysis in Engineering.<br/>
-							During my doctorate, I estimated building materials in the buildings of a city and assessed their
-							lifecycle impacts using indicators from an international database (EcoInvent). And I have published
-							my results in international peer-reviewed journals.<br/>
-							Since 2018, I focused on learning data analysis and data science with Python, and the introduction of
-							clouds(AWS and Azure). I had contributed to an open-source project of a voice-enabled chatbot.<br/><br/></p>
-							<p>Skills:</br>
-							<b>Data Analysis, Data Wrangling and Visualization with Python, Statistics, Machine Learning </b><br/>
-							- Python (Pandas, Numpy, Matplotlib, seaborn, ski learn, and other libraries)<br/>
-							- SQL<br/>
-							- Version Control (Git, GitHub, Fork)<br/>
-							- Visual Studio Code, Jupyter Notebook, Google colab
-							- Introduction of ML with cloud (AWS and Azure)</p>
+							I am a data scientist and researcher. Previously I was an architect in Brazil. Having lived in Brazil, Spain and Germany. I have developed data-driven features to digital platforms.<br/></p>
+							<b>Skills:</b><br/>
+							Data Analysis | Data Wrangling | Data Visualization | Statistics | Machine Learning | NLP <br/>
+							Python | Pandas | Numpy | Matplotlib | seaborn | scikit-learn | MySQL | Postgresql<br/></p>
+							
 						</div>
+
+
 
 
 				<!-- Footer -->
@@ -149,7 +156,6 @@
 									<h3>Folow me</h3>
 									<li><a href="https://www.linkedin.com/in/karinacondeixa/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/KC2016" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://twitter.com/kcondeixa" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								</ul>
 							</section>
 					</footer>
@@ -170,22 +176,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-      <!-- Mixpanel Tracking Script -->
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // Find the "Full story" button by its class
-          var fullStoryButton = document.querySelector('.actions.special .button');
-
-          // Add a click event listener to the button
-          fullStoryButton.addEventListener('click', function() {
-            // Track the click event using Mixpanel
-            mixpanel.track('Full Story Clicked', {
-              'Button': 'Full story button clicked'
-            });
-          });
-        });
-      </script>
 
 	</body>
 </html>
